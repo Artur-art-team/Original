@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+    background-color:#f6f6ec ; 
+    margin: 0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+section{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-x: hidden;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    align-items: flex-start;
+
+    
+
+}
+h1{
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 70px;
+    
+
+
+
+    
+}
+h2{
+    text-align: left;
+    font-size: 32px;
+}
+
+.section-beige{
+    padding: 1.5%;   
+}
+
+.police-Texte{
+    color: #13130d;
+    
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Metropolis",sans-serif;
+}
+
+.big-size-text{
+    font-size: 2.500em;
+}
+
+.padding-top{
+    padding-top: 10%;
+}
+
+
+.element-text-image{
+align-items: center;
+   display: flex;
+   min-width: 300px;
+   flex-direction: column;
+   width: 50%;
+   flex: 1 1 45%;
+}
+
+.element-image-text{
+    align-items: center;
+   display: flex;
+   min-width: 300px;
+   flex-direction: column;
+   width: 50%;
+   flex: 1 1 45%;
+}
+
+.text-colonne{
+    padding-left: 40px; /* ✅ Ce padding centre visuellement le bloc */
+  padding-right: 20px;
+  text-align: center;
+}
+ p{
+    font-size: 22px;
+    font-family: "Metropolis",sans-serif;
+    color: #707987;
+}
+
+.text-colonne-left {
+ 
+  padding-right: 20px;
+  text-align: left;               /* ✅ Corrige l'alignement */
+  align-items: flex-start;     
+}
+
+.element-image-text img {
+    border-radius: 15px;
+}
+
+.paddings-10-10{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.paddings-20-20{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.color-fefff9{
+    background-color: #fefff9;
+}
+.bg-white{
+    background-color: white;
+}
+
+section p {
+    text-align: center;
+}
+.sections{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+}
+
+.element-tier{
+    flex: 0 1 calc(33.333% - 13.33px);
+    padding: 20px 10px 10px 10px;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    overflow: hidden;
+
+}
+.element-tier img{
+    width: 100%; 
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    object-fit: cover; 
+}
+
+.element-tier p {
+    text-align: left;
+    
+}
+
+.element-tier img:hover{
+    transform: scale(1.1);
+}
+
+.pied-image{
+    text-align: center;
+    height: 1.5%;
+    
+}
+.pied-image img{
+    object-fit: cover;
+    width: 49px;
+}
+.no-space-center p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.no-space-left p{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+@media (min-width: 768px){
+
+    .element-tier{
+        width: 33.333%;
+        padding: 20px 10px 10px 10px;
+    }
+}
+
+
+</style>
+<body>
+    <div class="section-beige"></div>
+
+    
+        <h1 class="police-Texte">Transformer la mode, réinventer la réalité</h1>
+    
+    
+
+
+    <section class="bg-white" style="padding-bottom: 30px;">
+        <div class="element-text-image text-colonne">
+            <p>La mode est bien plus que de simples vêtements. Il raconte une histoire, exprime une identité et façonne notre rapport au monde. Mais aujourd’hui, l’industrie textile est l’une des plus polluantes et injustes de la planète. Chez L’Original, nous croyons en une mode responsable, artistique et engagée.</p>
+            <p> Sust & Fashion est une initiative qui fusionne l'art, l'upcycling et la critique sociale pour offrir une alternative consciente et créative à la fast fashion.</p>
+        </div>
+        <div class="element-text-image">
+            <img src="https://loriginal.org/wp-content/uploads/2025/02/img11.png" alt="">
+        </div>
+    </section>
+
+
+
+
+    <section class="paddings-10-10 color-fefff9 padding-top">
+ 
+        <div class="element-image-text">
+            <img src="https://loriginal.org/wp-content/uploads/2025/02/img-creatif.jpg" alt="">
+        </div>
+        <div class="element-image-text text-colonne-left">
+            <h2 class="police-Texte big-size-text">
+                Notre vision de l'art et de l'écologie
+            </h2>
+            
+                <p>La Galerie L’Original de Montréal se démarque par son engagement envers le street art et le recyclage, créant un environnement où l’art rencontre l’écologie et la culture sociale.</p>
+                <p>Cette galerie propose non seulement des espaces d'exposition mais organise également des ateliers où des matériaux de seconde main sont transformés en œuvres d'art, favorisant ainsi la durabilité et soutenant les artistes locaux. De plus, L’Original offre une plateforme dynamique pour la démocratisation de l’art, en présentant divers artistes et en facilitant leur interaction directe avec le public.</p>
+       
+              
+        </div>
+    </section>
+
+    <section class="paddings-20-20" style="padding-bottom: 40px;">
+        <h2 class="police-Texte big-size-text" style="text-align: center;">« The Original offre une plateforme dynamique pour la démocratisation de l’art »</h2>
+        <div class="no-space-center">
+            <p>Real, la marque streetwear, partage ces valeurs de réutilisation et d'engagement social en repensant et en satirisant les logos des grandes marques de mode. Chaque pièce Réel est unique, confectionnée par des artistes et des tailleurs à partir de vêtements recyclés.</p>
+            <p>Cette approche s’aligne étroitement avec  l’esprit de L’Original, avec l’accent mis sur le street art engagé et la critique de la consommation de masse.</p>
+        </div>
+           
+
+    </section>
+
+    <section class="bg-white paddings-20-20">
+        
+        <h2 class="police-Texte big-size-text">NOS ENGAGEMENTS</h2>
+            <p><strong>Mode</strong> qui transforme et engage. <strong>À L'Original</strong>, nous réinventons la mode à travers <strong>upcycling</strong>, <strong>créativité et l'engagement social</strong>. Chaque pièce raconte une histoire, alliant éthique, art et expression individuelle.</p>            
+    </section>
+
+
+    <section class="bg-white sections ">
+        <div class="element-tier">
+            <img src="https://loriginal.org/wp-content/uploads/2025/02/img3.jpg" alt="">
+            <h3>1️⃣ LA RÉALITÉ RÉIMAGINÉE</h3>
+            <div class="no-space-left">
+                <p>La fast fashion standardise et efface l’individualité. Nous prônons une mode où chaque pièce raconte une histoire, une transformation, un message.</p>
+                <p>✅ Recyclage et upcycling : Transformer des vêtements oubliés en œuvres d'art.</p>
+                <p>✅ Ateliers collaboratifs : Permettre à chacun de participer à la réinvention de la mode.</p>
+                <p>✅ Fusion de l'art et du vêtement : Travailler avec des artistes pour créer des pièces uniques et engagées.</p>
+        
+            </div>    
+        </div>
+        <div class="element-tier">
+            <img src="https://loriginal.org/wp-content/uploads/2025/02/img-creatif2.jpg" alt="">
+            <h3>2️⃣ LA MODE COMME GESTE DE RÉSISTANCE</h3>
+            <p>L'Original ne suit pas les tendances, nous les défions.</p>
+            <p>✅ Subversion de l'industrie : Critique de la surproduction et de la consommation de masse à travers l'art textile.</p>
+            <p>✅ Détournement des grandes marques : Remise en question des valeurs et pratiques des géants de la mode.</p>
+            <p>✅ Réappropriation culturelle : célébrer l'individualité plutôt que l'identité de marque imposée.</p>
+        </div>
+        <div class="element-tier">
+            <img src="https://loriginal.org/wp-content/uploads/2025/02/img4.jpg" alt="">
+            <h3>3️⃣ UN IMPACT SOCIAL ET ÉCOLOGIQUE</h3>
+            <p>Notre projet va au-delà du vêtement :</p>
+            <p>✅Critique des pratiques de la fast fashion : Pollution, exploitation des travailleurs, greenwashing.</p>
+            <p>✅ Ateliers et événements : Sensibiliser à la mode durable et à l'impact de nos choix de consommation.</p>
+            <p>✅ Engagement collectif : Une mode participative qui invite chacun à créer, remettre en question et repenser son rapport au textile.</p>
+        </div>
+
+    </section>
+
+    <div class="pied-image">
+        <img src="https://loriginal.org/wp-content/uploads/2024/02/cropped-cropped-cropped-cropped-loriginal-logo.png.webp" alt="">
+    </div>
+
+</body>
+</html>
