@@ -301,8 +301,40 @@ border: none;
 }
 
 
-  
+.containers-section-7{
+    display: flex;
+    gap: 20px;
+    margin: 2% 10%;
+    height: 600px;
+    flex: 1;
+}
 
+.element-section-7{
+    max-width: 33%;
+    background-color: #ebe9cf;
+    height: 100%;
+    border-radius: 15px;
+   
+}
+.element-section-7-img{
+    height: 75%;
+    width: 100%;
+    
+}
+.element-section-7-img img{
+    width: 100%;
+   height: 100%;
+    object-fit: fill;
+    display: block;
+}
+.element-section-7-text{
+    height: 25%;
+    width: 100%;
+}
+
+.lower{
+    margin-top: 10%;
+}
   
 .section-2 button{
     background-color: #ebe9cf;
@@ -314,7 +346,7 @@ border: none;
 
 .section-maps{
     max-width: 100%;
-    padding: 0 5%;
+    
     margin-bottom: 5%;
     margin-top: 5%;
 }
@@ -350,6 +382,7 @@ border: none;
     width: 45%;
     min-width: 300px;
     text-align: center;
+    height: 50vh;
 }
 .section-maps-map-item h2{
     color: #e8e9ce;
@@ -374,7 +407,7 @@ border: none;
 
 .section-maps-map-item iframe{
     width: 100%;
-    height: 356px;
+    height: 100%;
 }
 .espace-lire-suite{
     text-align: center;
@@ -396,3 +429,68 @@ border: none;
 .espace-lire-suite button:hover{
     color: #b29463
 }
+
+.newsletter{
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.newsletter h1{
+    color: #ebe9cf;
+    font-size: 72px;
+}
+
+.newsletter p{
+    color: #ebe9cf;
+    font-size: 24px;
+}
+
+.newsletter form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #0f0f0c;
+    border-radius: 999px;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.newsletter input[type="email"] {
+    flex: 1;
+    padding: 1rem 1.5rem;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+  }   
+
+  .newsletter input::placeholder {
+    color: #666;
+  }
+
+  .newsletter button {
+    padding: 1rem 2rem;
+    background-color: #c7a24b;
+    border: 10px solid #1e1e19;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 999px;
+    transition: background-color 0.3s ease;
+  }
+
+  .newsletter button:hover {
+    background-color: #d3b661;
+  }
+
+
+
+
+
+
+
