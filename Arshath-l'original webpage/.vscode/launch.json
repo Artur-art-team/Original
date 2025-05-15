@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against local file",
+            "file": "C:/Users/arsha/OneDrive/Desktop/INTERNSHIP- L'original/L'Original Webpage/Original/Arshath-l'original webpage/Activities.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

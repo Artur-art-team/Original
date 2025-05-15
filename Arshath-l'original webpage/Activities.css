@@ -1,0 +1,122 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #1e1e1a;
+  color: white;
+  font-family: 'Instrument Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Container */
+.container {
+  max-width: 1400px;
+  width: 60%; /* Adjusted for scaling */
+  margin: 0 auto;
+  padding: 40px 20px;
+
+  /* Zoom whole page content by 67% */
+  transform: scale(1);
+  transform-origin: top left;
+}
+
+/* Header */
+.header .logo {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Title */
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.title {
+  font-size: 42px;
+  text-align: center;
+  background: linear-gradient(90deg, #363531, #2a2a26);
+  padding: 20px 40px;
+  border-radius: 12px;
+  border: 2px solid #4e4d49;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* Grid Layout */
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* Each content block */
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.content-img,
+.text {
+  flex: 1 1 500px;
+}
+
+.content-img {
+  display: block;
+}
+
+.item.reverse {
+  flex-direction: row-reverse;
+}
+
+.content-img {
+  flex: 1;
+  max-width: 600px;
+  border-radius: 16px;
+  object-fit: cover;
+  width: 100%;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease;
+}
+
+.content-img:hover {
+  transform: scale(1.03);
+}
+
+.imagelast {
+  border-radius: 16px;
+}
+
+.text {
+  flex: 1;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #f1f1f1;
+  background-color: #2a2a26;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #444;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.text:hover {
+  transform: translateY(-5px);
+}
+
+.text h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #ffffff;
+}
